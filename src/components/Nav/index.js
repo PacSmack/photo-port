@@ -14,9 +14,9 @@ function Nav(props) {
     document.title = capitalizeFirstLetter(currentCategory.name);
   }, [currentCategory])
 
-  const handleClick = () => {
-    console.log("click handled")
-  }
+  // const handleClick = () => {
+  //   console.log("click handled")
+  // }
 
   return (
     <header data-testid="header" className="flex-row px-1">
